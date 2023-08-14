@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #202230;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    background-repeat: repeat;
+    background-image: url(https://cdn.pixabay.com/photo/2021/04/04/23/14/background-6151744_1280.png);
+}
+
+h1 {
+    font-size: 50px;
+    font-family: monospace;
+}
+
+#description {
+    margin-top: 30px;
+    text-align: center;
+    height: 310px;
+    width: 1450px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: monospace;
+    color: black;
+}
+
+#face {
+    background-color: #ffffff;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 15px solid #515894;
+    position: relative;
+}
+
+#minutes,
+#hour,
+#seconds {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: top center;
+}
+
+#seconds {
+    background-color: rgb(255, 123, 123);
+    height: 130px;
+    width: 3px;
+}
+
+#hour {
+    background-color: #515894;
+    height: 80px;
+    width: 9px;
+    transform: rotate(125deg);
+}
+
+#minutes {
+    background-color: #515894;
+    height: 130px;
+    width: 6px;
+    transform: rotate(255deg);
+}
